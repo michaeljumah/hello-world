@@ -73,7 +73,7 @@ def delete_post(id: int):
     my_posts.pop(index)
         
     
-    return {'message': "post was succesfully deleted"}
+    return Response(status_code=status.HTTP_204_NO_CONTENT)  
 
 
 @app.put("/posts/{id}")

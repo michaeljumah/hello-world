@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./PythonAPIDev",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": true
+}
